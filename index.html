@@ -24,7 +24,7 @@
             Some fields are missing
           </div>
 
-          <div class="container mt-4">
+          <div class="container mt-4 px-0">
             <form>
               <!-- row 1 -->
               <div class="row mb-3">
@@ -77,17 +77,43 @@
 
               <!-- row 4 -->
               <div class="row mb-3">
-                <div class="col-md-3">
-                  <h6 class="text-start"><label for="paymentMethod" class="form-label">We accept:</label></h6>
-                  <input type="radio" class="form-control" id="paymentMethod" name="masterCard">
-                  <input type="radio" class="form-control" id="paymentMethod" name="Visa">
+                <div class="col-md-4">
+
+                  <div class="container-fluid bg-secondary h-auto d-flex justify-content-between">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                      <label class="form-check-label" for="inlineRadio1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                      <label class="form-check-label" for="inlineRadio2">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                      <label class="form-check-label" for="inlineRadio3">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                      <label class="form-check-label" for="inlineRadio3">4</label>
+                    </div>
+
+                  </div>
+
+
+
+
+
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                 </div>
                 <div class="col-md-6">
                   <h6 class="text-start"><label for="message" class="form-label">Message</label></h6>
                   <textarea class="form-control" aria-label="With textarea" id="message"></textarea>
-                  <p class="form-text text-muted fs-7 text-start" >Add any notes here.</p>
+                  <p class="form-text text-muted fs-7 text-start">Add any notes here.</p>
                 </div>
               </div>
 
